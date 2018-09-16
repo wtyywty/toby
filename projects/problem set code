@@ -1,0 +1,20 @@
+### problem set one
+count = 0
+for char in s:
+    if char == 'a' or char == 'e' or char =='i' or char == 'o' or char == 'u':
+        count+=1
+print(count)
+
+### problem set two
+n = 0
+count = 0
+for n in range(len(s)):
+    a = s[n:n+3]
+    if a == "bob":
+        count+=1
+    else:
+        count = count
+print(count)
+
+### problem set 3
+没做出来
